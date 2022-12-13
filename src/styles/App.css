@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #abc;
+}
+.imgInNavbar{
+    align-self: center;
+    padding-left: 10px
+}
+.imgInNavbar img{
+    cursor: pointer;
+}
+.btnNavbar{
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.btnNavbar button{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+.btnNavbar a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 800;
+}
+/*
+{display:"flex",alignItems:"center",flexDirection:"column"}
+*/
+.counterHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.cntBtn{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: #dd6f54fa;
+    border: none;
+    box-shadow: #000 3px 3px 4px;
+    cursor: pointer;
+}
+.actualCount{
+    margin-top:1% ;
+    margin-bottom:1% ;
+    padding: 1%;
+    background-color: rgba(55, 90, 55, .7);
+}
+.resetHolder{
+    display: flex;
+}
+#count{
+    border-radius: 10px;
+    font-weight: 800;
+    padding: 10px;
+    background-color: rgba(142, 206, 233, 0.836);
+}
